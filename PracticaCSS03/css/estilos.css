@@ -1,7 +1,7 @@
 body{
     font-size: 16px;  /* 1em */
     margin: 0px auto;
-    max-width: 1024px; 
+    max-width: 1024px;
 }
 header nav{
     background: orangered;
@@ -9,6 +9,7 @@ header nav{
     margin-left: -30px;
     margin-top: 50px;
     height: 40px;
+    font-weight: bold;
 }
 header nav ul li{
     color: white;
@@ -22,17 +23,111 @@ header nav ul li{
     top: 35px;
     width: 30%;
 }
+#red1{
+    position: relative;
+    right: -560px;
+    top: 10px;
+}
+#red2{
+    position: relative;
+    right: -565px;
+    top: 10px;
+}
+#red3{
+    position: relative;
+    right: -570px;
+    top: 10px;
+}
 #primerSeccion{
-    border: 1px solid red;
+    margin-top: 10px;
+}
+#primerSeccion article{
     display: inline-block;
+    vertical-align: top;
+}
+#primerSeccion span{
+    background: orangered;
+    padding: 5px 117px;
+    border-radius: 15px;
 }
 #secc01art01{
-    border: 1px solid red;
-    margin-left: -10px;
-    margin-top: 10px;
-    width: 20%;
+    width: 60%;
 }
 #secc01art02{
-    border: 1px solid red;
-    width: 40%;
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 35%;
+}
+#segundaSeccion{
+    padding-top: 20px;
+    width: 60%;
+}
+#terceraSeccion{
+    margin-top: 10px;
+}
+#terceraSeccion article{
+   display: inline-block;
+}
+#secc03art01{
+    vertical-align: top;
+    border: 5px solid gainsboro;
+}
+#secc03art02{
+    width: 43%;
+    vertical-align: top;
+    margin-top: 10px;
+}
+#secc03art02 span{
+    padding: 3px 100px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+#secc03art02 input[type="button"]{
+    background: gainsboro;
+    border: 6px solid gainsboro;
+    border-radius: 5px;
+    color: white;
+}
+#secc03art03{
+    margin-top: -30px;
+    margin-left: 30px;
+    width: 30%;
+    text-align: center;
+}
+#secc03art03 span{
+    padding: 5px 110px;
+    background: orangered;
+    border-radius: 15px;
+}
+#secc03art03 form{
+    margin-top: 20px;
+}
+#secc03art03 form input[type="sumbit"]{
+    margin-bottom: 20px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+#secc03art03 form input[type="button"]{
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    font-size: 10px;
+}
+#secc03art03 ul li{
+    text-align: left;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    border-bottom: 1px solid black;
+}
+.nito{
+    font-weight: bold;
+}
+.colorgris{
+    color: gray;
+}
+.letramediana{
+    font-size: 2em;
+}
+.colorblanco{
+    color: white;
 }
