@@ -8,5 +8,45 @@ header{
 }
 header nav{
     background: white;
-    padding-left: 500px;
+    padding-left: 600px;
+   
+}
+header nav img{
+    width: 30%;
+}
+#logo{
+    margin-left: 340px;
+}
+#primerSeccion{
+    display: inline-block;
+}
+#secc01art01 ul{
+    list-style: none;
+    background: rgb(7, 7, 184);
+    width: 38%;
+    height: 30%;
+    margin-top: -4px;
+}
+#secc01art01 ul li{
+    margin-bottom: 5px;
+    color: white;
+}
+#secc01art01 ul li:before{
+    content: "</>";
+    margin-right: 10px;
+}
+#secc01art02{
+    border: 1px solid red;
+    width: 50%;
+}
+#progreso{
+    width: 10%;
+}
+#panelprog{
+    border: 1px solid red;
+    margin-left: -5px;
+    padding: 1px 45px;
+}
+.tamano{
+    width: 90%;
 }
